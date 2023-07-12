@@ -1,0 +1,9 @@
+$mainColor:  rgb(39, 38, 44);
+
+$width: 1000px;
+
+@mixin  mobile {
+    @media (max-width: #{$width} ) {
+        @content
+    }
+}

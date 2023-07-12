@@ -1,0 +1,37 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+.app {
+    height: 100vh;
+
+    .sections {
+        width: 100%;
+        //The 70px comes from the topbar
+        height: calc(100vh - 70px);
+        background-color: lightpink;
+        // Since the topbar is will take up the top 70px and the topbar is fixed if we try
+        // to just place content there the topbar will overlap the content
+        // to fix this we did the relative and placed it 70px below so right below the topbar
+        position: relative;
+        top: 70px;
+
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+        //Gets rid of scrollbar
+        scrollbar-width: none; 
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        > *{
+            //this will apply to all under this
+            width: 100vw;
+            height: calc(100vh - 70px);
+            scroll-snap-align: start;
+        }
+
+    }
+}
