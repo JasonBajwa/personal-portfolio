@@ -7,6 +7,7 @@ import Testimonials from "./components/testimonials/Testimonials"
 import Contact from "./components/contact/Contact"
 import "./App.scss"
 import SideMenu from "./components/sidemenu/SideMenu"
+import Skills from "./components/skills/Skills"
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -19,6 +20,7 @@ function App() {
      <div className="sections">
       
       <Intro />
+      <Skills className="skills"/>
       <Portfolio />
       <Works />
       <Testimonials />

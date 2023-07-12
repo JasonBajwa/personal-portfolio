@@ -33,5 +33,12 @@ body, html {
             scroll-snap-align: start;
         }
 
+        .skills {
+            width: 100vw;
+            height: calc(50vh - 70px);
+            scroll-snap-align: start;
+
+        }
+
     }
 }

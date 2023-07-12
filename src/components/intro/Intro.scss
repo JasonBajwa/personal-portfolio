@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .intro {
-    background-color: rgb(255, 255, 255);
+    background-color: $secondaryColor;
     display: flex;
 
     @include mobile {
