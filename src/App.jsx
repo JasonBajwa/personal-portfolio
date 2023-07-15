@@ -8,6 +8,8 @@ import Contact from "./components/contact/Contact"
 import "./App.scss"
 import SideMenu from "./components/sidemenu/SideMenu"
 import Skills from "./components/skills/Skills"
+import Education from "./components/education/Education"
+import Edu from "./components/education2/edu"
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -20,7 +22,11 @@ function App() {
      <div className="sections">
       
       <Intro />
-      <Skills className="skills"/>
+
+      {/* <Edu /> */}
+
+      <Education />
+      {/* <Skills className="skills"/> */}
       <Portfolio />
       <Works />
       <Testimonials />

@@ -1,0 +1,34 @@
+@import "../../global.scss";
+
+.edu {
+    // background-color: rgb(215, 196, 196);
+    background-color: #fff;
+    display: flex;
+    align-items: flex-start;
+    // justify-content: center;
+    flex-direction: column;
+    // margin: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+
+    .wrapper {
+        width: 100%;
+        background-color: aqua;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+
+        .edu1-logo {
+            background-color: red;
+        }
+
+        .edu1-content {
+            background-color: purple;
+            // grid-row: 2/3;
+            grid-column: span 2;
+        }
+    }
+}
