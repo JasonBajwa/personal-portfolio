@@ -1,0 +1,221 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+
+    .left {
+        display: flex;
+        width: 30%;
+        flex: 0 0 40%;
+        /* Added flex property to control width */
+
+
+        img {
+            width: 70%;
+        }
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 60%;
+
+        .title {
+            display: flex;
+            // background-color: blue;
+            background-color: transparent;
+            // justify-content: start;
+            // justify-content:flex-start;
+            align-items: flex-start;
+
+            h2 {
+                font-size: 400%;
+            }
+        }
+
+        .contact-form {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // justify-content: space-evenly;
+            flex-direction: row;
+            height: 60%;
+            width: 90%;
+            border-radius: 20px;
+
+            border: 6px solid #00020a;
+
+            .contact-form-leftside {
+                // background-color: plum;
+                background-color: #fff;
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                flex-direction: column;
+                width: 50%;
+                height: 70%;
+
+                form {
+                    background-color: transparent;
+                    // background-color: aquamarine;
+                    display: flex;
+                    flex-direction: column;
+                    // justify-content:center;
+                    align-items: flex-start;
+                    height: 100%;
+                    width: 90%;
+
+
+
+                    label {
+                        margin-bottom: 5px;
+                        font-size: 30px;
+                    }
+
+                    input,
+                    textarea {
+                        border: none;
+                        outline: none;
+                        background-color: transparent;
+                        border-bottom: 3px solid #000;
+                        width: 100%;
+                        /* Ensure the input takes up the full width */
+                        box-sizing: border-box;
+                        /* Include padding in the input's total width */
+                        padding: 5px;
+                        /* Added padding for spacing */
+                        margin-bottom: 10px;
+                        /* Increased margin for spacing */
+                        font-size: 20px;
+                    }
+
+                    .message {
+                        width: 100%;
+                        /* Adjust the width as needed */
+                        height: 20%;
+                        /* Adjust the height as needed */
+
+                    }
+
+                    input[type='submit'] {
+                        margin-top: 10%;
+                        background-color: black;
+                        color: #fff;
+                        border: none;
+                        padding: 10px 20px;
+                        cursor: pointer;
+                        height: auto;
+                        border-radius: 30px;
+                    }
+                }
+            }
+
+            .contact-form-rightside {
+                // background-color: burlywood;
+                background-color: transparent;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: flex-start;
+                width: 40%;
+                height: 50%;
+                margin-left: 5%;
+
+
+                .contact-address {
+                    // background-color: darkgray;
+                    background-color: transparent;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    // align-items: center;
+                    width: 70%;
+                    margin-bottom: 30px;
+
+                    h2 {
+                        font-size: 40px;
+                        font-weight: 700;
+                        margin-bottom: 5%;
+                        border-bottom: 3px solid #000;
+                    }
+
+                    h4 {
+                        // background-color: olive;
+                        background-color: transparent;
+                        width: 100%;
+                        font-size: 20px;
+                        font-weight: 700;
+                        // justify-content: center;
+                        align-items: center;
+                        margin-left: 10%;
+
+                    }
+
+                }
+
+                .base {
+                    // background-color: darkgray;
+                    background-color: transparent;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    // align-items: center;
+                    width: 70%;
+                    margin-bottom: 50px;
+
+                    h3 {
+                        font-size: 25px;
+                        font-weight: 700;
+                        margin-bottom: 2%;
+                        // border-bottom: 3px solid #000;
+                    }
+
+                    h4 {
+                        // background-color: olive;
+                        background-color: transparent;
+                        width: 100%;
+                        font-size: 20px;
+                        font-weight: 700;
+                        // justify-content: center;
+                        align-items: center;
+                        // align-items: flex-start;
+                        margin-left: 5%;
+
+                    }
+                }
+
+                .other-contact {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-start;
+                    // justify-content: space-evenly;
+                    justify-content: center;
+                    width: 70%;
+
+                    .linkedin-link {
+                        display: flex;
+                        width: 50%;
+
+                        img {
+                            width: 50%;
+                        }
+                    }
+
+                    .github-link {
+                        display: flex;
+                        width: 50%;
+
+                        img {
+                            width: 50%;
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+}

@@ -10,28 +10,30 @@ import SideMenu from "./components/sidemenu/SideMenu"
 import Skills from "./components/skills/Skills"
 import Education from "./components/education/Education"
 import Edu from "./components/education2/edu"
+import Contact2 from "./components/contact2/Contact2"
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <div className="app">
-     <TopBar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-     {/* <TopBar /> */}
-     <SideMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-     <div className="sections">
-      
-      <Intro />
+      <TopBar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      {/* <TopBar /> */}
+      <SideMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <div className="sections">
 
-      {/* <Edu /> */}
+        <Intro />
 
-      <Education />
-      {/* <Skills className="skills"/> */}
-      <Portfolio />
-      <Works />
-      <Testimonials />
-      <Contact />
-     </div>
+        {/* <Edu /> */}
+        <Skills className="skills" />
+
+
+        <Education />
+        <Portfolio />
+        <Works />
+        <Testimonials />
+        <Contact2 />
+      </div>
     </div>
   );
 }
