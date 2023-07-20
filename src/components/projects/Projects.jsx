@@ -19,13 +19,19 @@ export default function Projects() {
                                 <h3>{d.title}</h3>
                             </div>
                             <div className="project-desc">
-                                <p>{d.desc}</p>
+                                {/* <p>{d.desc}</p> */}
+                                <ul className="bullet-list">
+                                    {/* Split the desc string into an array of bullet points */}
+                                    {d.desc.split('\n').map((bullet, index) => (
+                                        <li key={index} className="bullet-item">{bullet}</li>
+                                    ))}
+                                </ul>
                             </div>
                             <div className="project-image">
 
                             </div>
                             <div className="project-link">
-                                <a href={d.href}>Github Repo</a>
+                                <a href={d.href}>Github Repo → </a>
                             </div>
 
                         </div>

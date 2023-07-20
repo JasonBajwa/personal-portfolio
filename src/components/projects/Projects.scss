@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .projects {
-    background-color: lightgreen;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,6 +15,7 @@
         // margin-bottom: 5%;
         padding-top: 20px;
         padding-bottom: 20px;
+        border-bottom: 1px solid gray;
 
         h2 {
             font-size: 50px;
@@ -37,7 +38,7 @@
         margin-left: 5%;
 
         .item {
-            background-color: crimson;
+            background-color: rgb(233, 241, 234);
             // height: 150px;
             width: 90%;
             height: 75%;
@@ -48,10 +49,11 @@
             // align-items: center;
             // justify-content: center;
             display: grid;
-            grid-template-rows: auto 1fr auto; /* Divide the item into three rows with auto height for the title and link, and 1fr for the remaining space */
+            grid-template-rows: auto 1fr auto;
+            /* Divide the item into three rows with auto height for the title and link, and 1fr for the remaining space */
             justify-items: stretch;
-            
-            color: rgb(217, 165, 42);
+
+            color: rgb(0, 0, 0);
             position: relative;
             transition: all 1s ease;
             cursor: pointer;
@@ -63,41 +65,80 @@
                 height: 100%;
 
                 .project-title {
-                    border-bottom: 1px solid black; /* Add an underline effect to the title */
-                    text-align: left; 
+                    border-bottom: 2px solid black;
+                    /* Add an underline effect to the title */
+                    width: 90%;
+                    margin-left: 5%;
+                    text-align: left;
                     padding: 10px;
+                    margin-bottom: 5%;
+
+                    // margin-top: 5%;     
                     h3 {
                         position: static;
-                        font-size: 20px;
+                        font-size: 30px;
+                        font-weight: 900;
                     }
                 }
 
                 .project-desc {
                     /* ... (your existing styles) ... */
-                    text-align: left; /* Align the description to the left */
+                    text-align: left;
+                    /* Align the description to the left */
+                    font-size: 20px;
+                    margin-left: 5%;
+                    margin-right: 5%;
+                    margin-bottom: 7%;
+
+                    ul {
+                        margin-left: 20px;
+                        padding-left: 0;
+                    }
+
+                    /* Add a custom bullet point using before pseudo-element */
+                    li {
+                        position: relative;
+                        padding-left: 1.5em;
+                        margin-bottom: 6px;
+                    }
+
+                    li::before {
+                        content: '\2022';
+                        /* Unicode character for a bullet point */
+                        position: absolute;
+                        left: 0;
+                    }
                 }
 
-    
+
                 .project-image {
                     img {
                         // width: 100%;
                         // height: 100%;
                         // object-fit: cover;
                         // z-index: 1;
-        
+
                         // visibility: hidden;
-        
+
                     }
                 }
 
                 .project-link {
                     /* ... (your existing styles) ... */
-                    text-align: right; /* Align the link to the right */
+                    text-align: right;
+                    /* Align the link to the right */
                     align-self: flex-end;
+                    margin-right: 10%;
+
+                    a {
+                        text-decoration: none;
+                        font-size: 20px;
+                        color: black;
+                    }
                 }
 
             }
-            
+
 
             img {
                 width: 100%;
@@ -109,7 +150,7 @@
 
             }
 
-            
+
 
             // &:hover {
             //     background-color: $mainColor;
