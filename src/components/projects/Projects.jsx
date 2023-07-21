@@ -31,7 +31,10 @@ export default function Projects() {
 
                             </div>
                             <div className="project-link">
-                                <a href={d.href}>Github Repo → </a>
+                                <a href={d.href}>
+                                    {/* <img src="./assests/github-mark.png" alt='github' className='git-logo' /> */}
+                                    Github Repo →
+                                </a>
                             </div>
 
                         </div>

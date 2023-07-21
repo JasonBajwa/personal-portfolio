@@ -1,0 +1,140 @@
+@import "../../global.scss";
+
+.experience {
+    background-color: white;
+
+
+    .content {
+        // background-color: aqua;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        height: 80%;
+        margin-top: 5%;
+        margin-left: 5%;
+
+        .content-left {
+            // background-color: red;
+            background-color: white;
+            flex: 0 0 40%;
+            border-right: 5px solid black;
+            margin-top: 2%;
+            padding-right: 25px;
+
+            .about-me-title {
+                // background-color: violet;
+                background-color: white;
+                border-bottom: 2px solid black;
+                width: 40%;
+                font-size: 25px;
+                font-weight: 800;
+                margin-bottom: 5%;
+            }
+
+            .about-me-paragraph {
+                display: flex;
+                flex-direction: column;
+                font-size: 25px;
+
+                margin-bottom: 10%;
+
+                p {
+                    margin-bottom: 5%;
+                    .tab {
+                        display: inline-block;
+                        margin-left: 40px;
+                    }
+                }
+            }
+        }
+
+        .content-right {
+            // background-color: greenyellow;
+            background-color: white;
+            width: 60%;
+            margin-left: 2%;
+            margin-right: 3%;
+            margin-top: 2%;
+            // border-left: 5px solid black;
+
+            .title {
+                // background-color: violet;
+                background-color: white;
+                border-bottom: 2px solid black;
+                width: 40%;
+                font-size: 25px;
+                font-weight: 800;
+                margin-bottom: 5%;
+            }
+
+            .item {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 5%;
+
+                .company {
+                    font-size: 25px;
+                    margin-bottom: 10px;
+                    // border-bottom: 2px solid black;
+                    border-bottom: 3px solid gray;
+
+                }
+
+                .time-and-location {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    margin-left: 15px;
+                    margin-bottom: 10px;
+
+                    h4 {
+                        font-size: 25px;
+                        color: gray;
+
+                    }
+
+                    h5 {
+                        font-size: 25px;
+                        color: gray;
+                    }
+                }
+
+                .role {
+                    margin-left: 15px;
+                    margin-bottom: 10px;
+                    color: rgb(1, 56, 208);
+
+                    h4 {
+                        font-size: 25px;
+                    }
+                }
+
+                .desc {
+                    font-size: 20px;
+
+                    .bullet-list {
+                        ul {
+                            margin-left: 20px;
+                        }
+
+                        li {
+                            margin-bottom: 10px;
+                            position: relative;
+                            padding-left: 20px;
+                        }
+
+                        li::before {
+                            content: '\2022';
+                            /* Unicode character for a bullet point */
+                            position: absolute;
+                            left: 0;
+                            color: black;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

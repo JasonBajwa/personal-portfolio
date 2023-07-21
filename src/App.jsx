@@ -12,6 +12,7 @@ import Education from "./components/education/Education"
 import Edu from "./components/education2/edu"
 import Contact2 from "./components/contact2/Contact2"
 import Projects from "./components/projects/Projects"
+import Experience from "./components/experience/Experience"
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -24,14 +25,10 @@ function App() {
       <div className="sections">
 
         <Intro />
+        <Experience />
         <Projects />
-
-        {/* <Edu /> */}
         <Skills className="skills" />
-        <Education />
-        <Portfolio />
-        <Works />
-        <Testimonials />
+        <Education />        
         <Contact2 />
       </div>
     </div>

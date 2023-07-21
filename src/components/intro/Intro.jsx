@@ -31,7 +31,7 @@ export default function Intro() {
 
       <div className="right">
         <div className="wrapper">
-          <h2>HEllO MY NAME IS </h2>
+          <h2>Looking to shape the future, world, </h2>
           <h2>
             My Name is
             <span ref={textRef}></span>
