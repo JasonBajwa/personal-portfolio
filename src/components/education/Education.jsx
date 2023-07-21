@@ -3,7 +3,7 @@ import "./Education.scss";
 
 export default function Education() {
     return (
-        <div className='Education'>
+        <div className='Education' id="education">
             <div className="container">
                 <div className="header-edu">
                     <h1>EDUCATION</h1>

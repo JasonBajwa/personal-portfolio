@@ -4,7 +4,7 @@ import ProjectData from "./ProjectData";
 
 export default function Projects() {
     return (
-        <div className='projects'>
+        <div className='projects' id="projects">
             <div className="title">
                 <h2>Projects</h2>
             </div>

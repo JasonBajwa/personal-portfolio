@@ -18,7 +18,7 @@ export default function Contact2() {
     };
 
     return (
-        <div className='contact'>
+        <div className='contact' id="contact">
             <div className="left">
                 <img src='./assests/4957160_4957160.jpg' />
             </div>

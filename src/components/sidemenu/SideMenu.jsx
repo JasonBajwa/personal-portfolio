@@ -15,15 +15,19 @@ export default function SideMenu({menuOpen, setMenuOpen}) {
                 </li>
 
                 <li onClick={handleClick}>
-                    <a href="#portfolio"> PORTFOLIO </a>
+                    <a href="#aboutMe"> ABOUT ME AND EXPERIENCE </a>
                 </li>
 
                 <li onClick={handleClick}>
-                    <a href="#works"> WORKS </a>
+                    <a href="#projects"> PROJECTS </a>
                 </li>
 
                 <li onClick={handleClick}>
-                    <a href="#testimonials"> TESTIMONIALS </a>
+                    <a href="#skills"> SKILLS </a>
+                </li>
+
+                <li onClick={handleClick}>
+                    <a href="#education"> EDUCATION </a>
                 </li>
 
                 <li onClick={handleClick}>
