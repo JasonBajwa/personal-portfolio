@@ -98,17 +98,27 @@
                 flex: 0 1 auto;
                 border-radius: 30px;
 
+                .degree {
+                    h3 {
+                        font-size: 30px;
+                        margin-bottom: 10px;
+                        font-weight: 800;
+                        margin-left: 10px;
+                    }
+                }
+
                 .first-edu-name {
                     font-size: 25px;
                     margin-bottom: 10px;
+                    border-bottom: 2px solid black;
                 }
 
                 .duration {
                     display: flex;
                     justify-content: space-between;
-                    font-size: 25px;
+                    font-size: 20px;
                     font-style: oblique;
-                    margin-bottom: 40px;
+                    margin-bottom: 30px;
                     margin-right: 10px;
                 }
 
@@ -189,10 +199,10 @@
                 /* Adjust the width as needed */
                 margin-bottom: 20px;
 
-                .uga-logo {
+                .gsu-logo {
                     margin-top: 20px;
                     margin-bottom: 10px;
-                    width: 40%;
+                    width: 90%;
                 }
 
                 .uga-title {
@@ -221,14 +231,15 @@
                 .second-edu-name {
                     font-size: 25px;
                     margin-bottom: 10px;
+                    border-bottom: 2px solid black;
                 }
 
                 .duration {
                     display: flex;
                     justify-content: space-between;
-                    font-size: 25px;
+                    font-size: 20px;
                     font-style: oblique;
-                    margin-bottom: 40px;
+                    margin-bottom: 30px;
                     margin-right: 10px;
                 }
 

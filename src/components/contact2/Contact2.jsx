@@ -54,9 +54,8 @@ export default function Contact2() {
 
                             </a>
 
-                            <a className='github-link'>
+                            <a className='github-link' href="https://github.com/JasonBajwa">
                                 <img src="./assests/github-mark.png" alt='github' className='git-logo' />
-
                             </a>
                         </div>
                     </div>
