@@ -2,16 +2,20 @@
 
 .experience {
     background-color: $EgyptianBlue;
+    // background-image: url('./layered-waves-haikei (6).png');
+    // background-size: cover;
+    // background-repeat: no-repeat;
 
 
     .content {
         // background-color: white;
-        background-color: $EgyptianBlue;
+        // background-color: $EgyptianBlue;
+        background-color: transparent;
         display: flex;
         flex-direction: row;
         width: 90%;
         height: 80%;
-        // margin-top: 5%;
+        margin-top: 5%;
         margin-left: 5%;
 
         .content-left {
@@ -22,20 +26,21 @@
             padding-right: 25px;
 
             .about-me-title {
-                // background-color: violet;
-                background-color: white;
-                border-bottom: 2px solid black;
+                background-color: transparent;
+                // background-color: white;
+                border-bottom: 2px solid gray;
                 width: 40%;
                 font-size: 25px;
                 font-weight: 800;
                 margin-bottom: 5%;
+                color: $platinum;
             }
 
             .about-me-paragraph {
                 display: flex;
                 flex-direction: column;
                 font-size: 25px;
-
+                color: $platinum;
                 margin-bottom: 10%;
 
                 p {
@@ -49,8 +54,8 @@
         }
 
         .content-right {
-            // background-color: greenyellow;
-            background-color: white;
+            // background-color: $EgyptianBlue;
+            // background-color: white;
             width: 60%;
             margin-left: 2%;
             margin-right: 3%;
@@ -58,9 +63,10 @@
             // border-left: 5px solid black;
 
             .title {
-                // background-color: violet;
-                background-color: white;
-                border-bottom: 2px solid black;
+                // background-color: $EgyptianBlue;
+                color: $platinum;
+                // background-color: white;
+                border-bottom: 2px solid gray;
                 width: 40%;
                 font-size: 25px;
                 font-weight: 800;
@@ -71,6 +77,8 @@
                 display: flex;
                 flex-direction: column;
                 margin-bottom: 5%;
+                color: $platinum;
+
 
                 .company {
                     font-size: 25px;
@@ -102,7 +110,8 @@
                 .role {
                     margin-left: 15px;
                     margin-bottom: 10px;
-                    color: rgb(1, 56, 208);
+                    // color: rgb(1, 56, 208);
+                    color: $platinum;
 
                     h4 {
                         font-size: 25px;
@@ -111,6 +120,7 @@
 
                 .desc {
                     font-size: 20px;
+                    color: $platinum;
 
                     .bullet-list {
                         ul {
@@ -128,7 +138,8 @@
                             /* Unicode character for a bullet point */
                             position: absolute;
                             left: 0;
-                            color: black;
+                            // color: black;
+                            color: $platinum;
                         }
                     }
 

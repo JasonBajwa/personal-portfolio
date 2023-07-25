@@ -5,31 +5,18 @@
     background-color: $EerieBlack;
     display: flex;
 
+    // background-image: url('./layered-waves-haikei (7).png');
+    // /* Set the background size and repeat behavior if needed */
+    // background-size: cover;
+    // background-repeat: no-repeat;
+
+
     @include mobile {
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
     }
 
-    // .custom-shape-divider-top-1690237083 {
-    //     position: absolute;
-    //     top: 0;
-    //     left: 0;
-    //     width: 100%;
-    //     overflow: hidden;
-    //     line-height: 0;
-    // }
-
-    // .custom-shape-divider-top-1690237083 svg {
-    //     position: relative;
-    //     display: block;
-    //     width: calc(300% + 1.3px);
-    //     height: 157px;
-    // }
-
-    // .custom-shape-divider-top-1690237083 .shape-fill {
-    //     fill: #000000;
-    // }
 
 
     .left {
@@ -43,7 +30,7 @@
             // width: 100%;
             // height: 100%;
             // background-color: burlywood;
-            background-color: rgb(255, 255, 255);
+            // background-color: rgb(255, 255, 255);
             border-radius: 50%;
             display: flex;
             align-items: flex-end;
@@ -55,8 +42,8 @@
             }
 
             img {
-                height: 90%;
-
+                height: 80%;
+border-radius: 56% 44% 23% 77% / 64% 24% 76% 36% ;
                 @include mobile {
                     height: 50%;
                 }
@@ -67,6 +54,9 @@
     .right {
         flex: 0.5;
         // background-color: rgb(244, 89, 0);
+        margin-top: 10%;
+        // margin-right: 250px;
+        padding-right: 250px;
 
         .wrapper {
             width: 100%;
@@ -74,7 +64,8 @@
             padding-left: 50px;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            // justify-content: center;
+            align-items:flex-start;
 
             @include mobile {
                 padding-left: 0;
@@ -85,10 +76,20 @@
                 font-size: 60px;
                 margin: 10px;
                 left: 50%;
+                color: $platinum;
+                margin-bottom: 50px;
 
                 @include mobile {
                     font-size: 40px;
                 }
+
+            }
+
+            h4 {
+                font-size: 25px;
+                margin: 10px;
+                left: 50%;
+                color: $platinum;
 
             }
 
@@ -98,22 +99,6 @@
             }
         }
     }
-
-
-
-
-    // .spacer {
-    //     aspect-ratio: 960/300;
-    //     width: 100%;
-    //     background-repeat: no-repeat;
-    //     background-position: center;
-    //     background-size: cover;
-    // }
-
-    // .layer1 {
-    //     background-image: url('./layered-waves-haikei (2).svg');
-    // }
-
 
     .custom-shape-divider-bottom-1690242679 {
         position: absolute;

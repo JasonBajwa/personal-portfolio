@@ -10,10 +10,10 @@ export default function Intro() {
   useEffect(() => {
     // console.log(textRef)
     init(textRef.current, {
-      backDelay: 3000,
+      backDelay: 1000,
       backSpeed: 1000,
       showCursor: true,
-      strings: [" Jason ", " Bajwa"]
+      strings: [" Future. ", " World."]
     }
 
 
@@ -23,22 +23,22 @@ export default function Intro() {
 
   return (
     <div className='intro' id='intro'>
-      <div className="spacer layer1 background-svg"></div>
-
 
       <div className="left">
         <div className="imgContainer">
-          <img src="../assests/used_images/Subject.png" />
+          {/* <img src="../assests/used_images/Subject.png" /> */}
+          <img src='../assests/used_images/IMG_0001 Small.png' />
         </div>
       </div>
 
       <div className="right">
         <div className="wrapper">
-          <h2>Looking to shape the future, world, </h2>
-          <h2>
-            My Name is
+          <h2>My name is Jason Bajwa. </h2>
+          <h4> A 4th year student at the University of Georgia, looking to shape the
             <span ref={textRef}></span>
-          </h2>
+          </h4>
+
+
         </div>
 
         <a href='#portfolio'>

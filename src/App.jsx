@@ -25,7 +25,7 @@ function App() {
       <div className="sections">
 
         <Intro />
-        <Experience />
+        <Experience className="experience"/>
         <Projects />
         <Skills className="skills" />
         <Education className="education"/>        

@@ -20,6 +20,7 @@
         overflow: hidden;
         padding-top: 30px;
         padding-bottom: 20px;
+        color: $platinum;
         border-bottom: 4px solid gray;
 
         h2 {
@@ -37,7 +38,8 @@
         margin-left: 5%;
 
         .item {
-            background-color: rgb(233, 241, 234);
+            // background-color: rgb(233, 241, 234);
+            background-color: $platinum;
             width: 90%;
             height: 75%;
 
