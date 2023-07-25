@@ -40,5 +40,13 @@ body, html {
 
         }
 
+        .education {
+            width: 100vw;
+            height: calc(900vh - 70px);
+
+            scroll-snap-align: start;
+
+        }
+
     }
 }

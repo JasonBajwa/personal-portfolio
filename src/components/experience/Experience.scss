@@ -1,22 +1,21 @@
 @import "../../global.scss";
 
 .experience {
-    background-color: white;
+    background-color: $EgyptianBlue;
 
 
     .content {
-        // background-color: aqua;
-        background-color: white;
+        // background-color: white;
+        background-color: $EgyptianBlue;
         display: flex;
         flex-direction: row;
         width: 90%;
         height: 80%;
-        margin-top: 5%;
+        // margin-top: 5%;
         margin-left: 5%;
 
         .content-left {
-            // background-color: red;
-            background-color: white;
+            // background-color: white;
             flex: 0 0 40%;
             border-right: 5px solid black;
             margin-top: 2%;

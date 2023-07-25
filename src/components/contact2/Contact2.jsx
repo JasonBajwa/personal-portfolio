@@ -20,7 +20,7 @@ export default function Contact2() {
     return (
         <div className='contact' id="contact">
             <div className="left">
-                <img src='./assests/4957160_4957160.jpg' />
+                <img src='./assests/used_images/4957160_4957160.jpg' />
             </div>
             <div className="right">
                 <div className="title">
@@ -50,12 +50,12 @@ export default function Contact2() {
                         <div className="other-contact">
                             {/* <a className='linkedin-link' href="www.linkedin.com/in/jason-bajwa"> */}
                             <a className='linkedin-link' href="https://www.linkedin.com/in/jason-bajwa">
-                                <img src="./assests/LI-In-Bug.png" alt='LINKEDIN' />
+                                <img src="./assests/used_images/LI-In-Bug.png" alt='LINKEDIN' />
 
                             </a>
 
                             <a className='github-link' href="https://github.com/JasonBajwa">
-                                <img src="./assests/github-mark.png" alt='github' className='git-logo' />
+                                <img src="./assests/used_images/github-mark.png" alt='github' className='git-logo' />
                             </a>
                         </div>
                     </div>

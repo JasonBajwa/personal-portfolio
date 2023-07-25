@@ -3,6 +3,12 @@
     flex-direction: row;
     background-color: #fff;
 
+    background-image: url('./blob-scene-haikei (3).png');
+    /* Set the background size and repeat behavior if needed */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
     .left {
         display: flex;
         width: 30%;
@@ -140,6 +146,7 @@
                         font-weight: 700;
                         margin-bottom: 5%;
                         border-bottom: 3px solid #000;
+                        overflow: hidden;
                     }
 
                     h4 {
@@ -151,6 +158,7 @@
                         // justify-content: center;
                         align-items: center;
                         margin-left: 10%;
+                        overflow: hidden;
 
                     }
 
@@ -165,12 +173,16 @@
                     // align-items: center;
                     width: 70%;
                     margin-bottom: 50px;
+                    overflow: hidden;
+
 
                     h3 {
                         font-size: 25px;
                         font-weight: 700;
                         margin-bottom: 2%;
                         // border-bottom: 3px solid #000;
+                        overflow: hidden;
+
                     }
 
                     h4 {
@@ -183,6 +195,8 @@
                         align-items: center;
                         // align-items: flex-start;
                         margin-left: 5%;
+                        overflow: hidden;
+
 
                     }
                 }
@@ -194,6 +208,8 @@
                     // justify-content: space-evenly;
                     justify-content: center;
                     width: 70%;
+                    overflow: hidden;
+
 
                     .linkedin-link {
                         display: flex;
@@ -207,6 +223,7 @@
                     .github-link {
                         display: flex;
                         width: 50%;
+                        max-width: 50%;
 
                         img {
                             width: 50%;

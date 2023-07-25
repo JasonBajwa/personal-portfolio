@@ -11,7 +11,7 @@ export default function Education() {
                 <div className="first-edu">
                     <div className="first-edu-logo">
                         <img
-                            src="./assests/UGAlogo_TopShield_CW_MARCM.png"
+                            src="./assests/used_images/UGAlogo_TopShield_CW_MARCM.png"
                             alt=""
                             className='uga-logo'
                         />

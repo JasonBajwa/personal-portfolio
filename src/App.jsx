@@ -28,7 +28,7 @@ function App() {
         <Experience />
         <Projects />
         <Skills className="skills" />
-        <Education />        
+        <Education className="education"/>        
         <Contact2 />
       </div>
     </div>
