@@ -3,7 +3,7 @@ const ProjectData = [
         id: "1",
         title: "Roster Ready",
         img: "../assests/skills_icons/icons8-java-50.png",
-        desc: "A full-stack web app that allows users to create, update, read, and delete a roster of players. Gives the users the ability to set-up custom teams of there choosing.\n Built a fully functioning login/sign-out account featurethat allows users to save personal rosters to their own account \n Created using MongoDB, Nodejs/Express, React, Axios, JavaScript , HTML/CSS",
+        desc: "A full-stack web app that allows users to create, update, read, and delete a roster of players. Gives the users the ability to set-up custom teams of their choosing.\n Built a fully functional login/sign-out account featurethat allows users to save personal rosters to their own account \n Created using MongoDB, Nodejs/Express, React, Axios, JavaScript , HTML/CSS",
         href: "https://github.com/JasonBajwa/RosterReady.git",
     },
     {
@@ -24,35 +24,10 @@ const ProjectData = [
         id: "4",
         title: "MixHunt",
         img: "../assests/skills_icons/icons8-css-50 (1).png",
-        desc: "An app with the purpose of generating random songs on the basis of genre.\n Utilized the Spotify API and a striking front-end site for users. \nUsed JavaScript, React, HTML/CSS in the creation and maintence.",
+        desc: "An app with the purpose of generating random songs on the basis of genre.\n Utilized the Spotify API and a striking front-end site for users. \nUsed JavaScript, React, HTML/CSS in the creation and maintenance.",
         href: "https://github.com/JasonBajwa/MixHunt.git",
     },
 
-    // {
-    //     id: "4",
-    //     title: "Give Me A Song",
-    //     img: "../assests/skills_icons/icons8-css-50 (1).png",
-    // },
-    // {
-    //     id: "4",
-    //     title: "Give Me A Song",
-    //     img: "../assests/skills_icons/icons8-css-50 (1).png",
-    // },
-    // {
-    //     id: "4",
-    //     title: "Give Me A Song",
-    //     img: "../assests/skills_icons/icons8-css-50 (1).png",
-    // },
-    // {
-    //     id: "4",
-    //     title: "Give Me A Song",
-    //     img: "../assests/skills_icons/icons8-css-50 (1).png",
-    // },
-    // {
-    //     id: "4",
-    //     title: "Give Me A Song",
-    //     img: "../assests/skills_icons/icons8-css-50 (1).png",
-    // },
 
 ];
 
