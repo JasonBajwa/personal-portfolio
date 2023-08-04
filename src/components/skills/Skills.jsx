@@ -19,7 +19,6 @@ export default function Skills() {
             <div className="container">
                 {skillList.map((d) => (
                     <div className='item'>
-                        {/* <h3>{d.title}</h3> */}
                         <img
                             src={d.img}
                             alt=""

@@ -10,7 +10,7 @@ const ProjectData = [
         id: "2",
         title: "Getaway Guru",
         img: "../assests/skills_icons/icons8-css-50 (1).png",
-        desc: "A full-stack web application that gives users custom made iterneries for trips and vacations. Users enter certain parameters and decripstions of their trip, and recieve a day-to-day list of real and actual activites that can be done. \n Utilized AI to generate personalized iteraries using the OpenAI API.\n Built using JavaScript, HTML/CSS",
+        desc: "A full-stack web application that gives users custom made itineraries for trips and vacations. Users enter certain parameters and descriptions of their trip, and recieve a day-to-day list of real and actual activites that can be done. \n Utilized AI to generate personalized itineraries using the OpenAI API.\n Built using JavaScript, HTML/CSS",
         href: "https://github.com/JasonBajwa/GetawayGuru.git",
     },
     {
